@@ -27,9 +27,10 @@ WRITING...
 
 ## INSTALL
 
-- clone this repo:
-        git clone https://github.com/pedrobslisboa/create-react-redux-app.git
-
+- clone this repo (If you want, ):
+```
+    git clone https://github.com/pedrobslisboa/create-react-redux-app.git YOUR_APP_NAME_HERE
+```
 - change the name of the app at package.json:
 
 ```diff
@@ -42,7 +43,10 @@ WRITING...
 ```
 
 - istall dependencies:
-        npm install
-
+```
+    npm install
+```
 - run application:
-        npm start
+```
+    npm start
+```
