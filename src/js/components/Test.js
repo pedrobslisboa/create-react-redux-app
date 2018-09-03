@@ -24,9 +24,7 @@ class Test extends Component {
                 <div>
                     <span>Async Test:{`${this.props.asyncTest}`}</span>
                 </div>
-                //button for change test
                 <button onClick={this.props.changeTest}>Change Test</button>
-                //button for change asyncTest
                 <button onClick={this.props.changeAsyncTest}>Change Async Test</button>
                 <button>Reset</button>
             </div>
