@@ -31,7 +31,7 @@ WRITING...
 
 ## INSTALL
 
-- clone this repo (If you want, ):
+- clone this repo:
 ```
     git clone https://github.com/pedrobslisboa/create-react-redux-app.git YOUR_APP_NAME_HERE
 ```
