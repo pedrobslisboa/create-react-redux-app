@@ -18,7 +18,6 @@ This project is a simple react app with a friendly redux design and thunk for as
                     ├── actions
                         ├── actionsTypes.js
                         ├── asyncTest.action.js
-                        ├── reset.action.js
                         ├── test.action.js
                     ├── initialState.js
                     ├── reducers.js

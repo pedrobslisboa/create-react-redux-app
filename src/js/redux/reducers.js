@@ -16,12 +16,6 @@ const reducers = (state = initialState,action) =>{
             return Object.assign({},state,{
                 asyncTest:!state.asyncTest
             })
-        // reset test and assyncTest
-        case types.RESET:
-            return Object.assign({},state,{
-                test:false,
-                asyncTest:false
-            })
 
         default:
             return state
