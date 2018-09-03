@@ -1,4 +1,6 @@
+// import initialState
 import initialState from './initialState'
+// import all types as types, so you can access all types through an object called types
 import * as types from './actions/actionTypes'
 
 const reducers = (state = initialState,action) =>{
