@@ -10,9 +10,6 @@ import changeTest from '../redux/actions/test.action'
 
 
 class Test extends Component {
-    constructor(props){
-        super(props)
-    }
     render() {
         console.log(this.props.asyncTest);
         
@@ -26,7 +23,6 @@ class Test extends Component {
                 </div>
                 <button onClick={this.props.changeTest}>Change Test</button>
                 <button onClick={this.props.changeAsyncTest}>Change Async Test</button>
-                <button>Reset</button>
             </div>
         )
     }

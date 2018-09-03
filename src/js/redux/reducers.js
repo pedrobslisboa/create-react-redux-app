@@ -7,12 +7,18 @@ const reducers = (state = initialState,action) =>{
         // turn test in true
         case types.TEST:
             return Object.assign({},state,{
-                test:true
+                test:!state.test
             })
         // turn test in true after async request
         case types.ASYNC_TEST:
             return Object.assign({},state,{
-                asyncTest:true
+                asyncTest:!state.asyncTest
+            })
+        // reset test and assyncTest
+        case types.RESET:
+            return Object.assign({},state,{
+                test:false,
+                asyncTest:false
             })
 
         default:
