@@ -46,7 +46,7 @@ WRITING...
 
 ```
 
-- istall dependencies:
+- install dependencies:
 ```
     npm install
 ```
