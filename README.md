@@ -20,3 +20,24 @@ This project is a simple react app with redux and thunk already, all the design 
                     ├── reducers.js
                     └── store.js
             ...       
+
+## TUTORIAL
+
+WRITING...
+
+## INSTALL
+
+- clone this repo:
+        git clone https://github.com/pedrobslisboa/create-react-redux-app.git
+- istall dependencies:
+        npm install
+- change the name of the app at package.json:
+
+```diff
+   {
+-  "name": "create-react-redux-app",
++  "name": "YOUR_APP_NAME_HERE",
+   "version": "0.1.0",
+   "private": true,
+
+```
