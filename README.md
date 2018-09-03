@@ -28,7 +28,7 @@ This project is a simple react app with a friendly redux design and thunk for as
 
 WRITING...
 
-## INSTALL
+## USAGE
 
 - clone this repo:
 ```
